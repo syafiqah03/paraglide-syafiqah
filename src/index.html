@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+    <body><!--head background--> 
+        <header class="headercontainer">
+          <h1>🪂Paraglide in Malaysia🪂</h1>
+        </header>
+
+        <ul><!--link for API/CRUD FILE/EXIT--> 
+          <li><a href="C:\Users\Asus\OneDrive\Documents\JSPROJECT\ASMNTOOP\src\index.html">HOME</a></li>
+          <li><a href="C:\Users\Asus\OneDrive\Documents\JSPROJECT\ASMNTOOP\src\index2.html">INFO</a></li>
+          <li><a href="#" onclick="self.close();">EXIT</a></li>
+        </ul>
+
+      <article class="articlecontainer"><!--user input any district to know weather--> 
+        <h2>Want to know the weather now?</h2>
+        <p>Search below👇🏻</p>
+        <input type="text" id="city_input" placeholder="Enter DISTRICT" style="width:200px; height: 20px;border: 2px solid rgb(0, 0, 0);">
+        <button onclick="buttonClicked()">Search</button>
+          <div class="container"><br>
+            <center><table>
+                <tr>
+                  <th>NO.</th>
+                  <th>PLACE</th>
+                  <th>DISTRICT</th>
+                </tr>
+                <tr>
+                  <td>  1.</td>
+                  <td> Bukit Bubus</td>
+                  <td>Kampung Raja</td>
+                </tr>
+                <tr>
+                  <td>  2.</td>
+                  <td>Gunung Jerai</td>
+                  <td>Gurun</td>
+                </tr>
+                <tr>
+                  <td>  3.</td>
+                  <td>Gunung Ledang</td>
+                  <td>Tangkak</td>
+               </tr>
+                <tr>
+                  <td>  4.</td>
+                  <td>Bukit Kokol</td>
+                  <td>Kota Kinabalu</td>
+                </tr>
+                <tr>
+                  <td>  5.</td>
+                  <td>Bukit Jugra</td>
+                  <td>Banting</td>
+                </tr>
+
+            </table><br></center>
+        </div>   
+        <center><div class="hehe">
+            <h3>CURRENT WEATHER: </h3>
+
+            <p id="display"></p>
+               <script src="main.js"></script>
+          </div></center>
+    </article>
+</body>
+</html>
